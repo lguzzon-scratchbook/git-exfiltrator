@@ -10,6 +10,7 @@ git exfiltrator <against-ref> <subject-ref> <pathspec>
 ```
 
 # Known Uses
+
 - Breaking up a large branch or Pull Request into many smaller ones.
 - Releasing (or moving) code that is "ready" without waiting for code that is
   "not ready"
@@ -17,12 +18,14 @@ git exfiltrator <against-ref> <subject-ref> <pathspec>
   without losing history.
 
 # Benefits
+
 - A late stage fix to development processes which generate massive PRs instead
   of many small PRs.
 - Keeping history of work migrated to a new branch.
 - Avoid using primitive cut+paste techniques.
 
 # Known Drawbacks
+
 - Commit messages will be duplicated into the extracted branch.
 - Operator should know how a git-tree works.
 
@@ -115,6 +118,7 @@ master. Simply `git merge feature-branch` from `master` as you normally would.
 ```
 
 # Regrets
+
 I wish I didn't have to create this tool. The reality is that most of this
 industry is writing massive PRs which are difficult to work with. Changing the
 default "development mindset" of developers and software managers *globally* is

@@ -2,5 +2,9 @@
 **/* text=auto
 
 # All shell scripts must use LF
+.gitignore
+.gitattributes
 git-exfiltrate text eol=lf
+LICENSE text eol=lf
 **/*.sh text eol=lf
+**/*.md text eol=lf
