@@ -29,7 +29,7 @@ git exfiltrator <against-ref> <subject-ref> <pathspec>
 - Commit messages will be duplicated into the extracted branch.
 - Operator should know how a git-tree works.
 
-# Installation 
+# Installation
 
 You can install the script using this repo to keep things versioned correctly, or you can try and do it the hack way.
 
@@ -57,14 +57,14 @@ maintain a logical commit history.
 | *   (feature-branch)
 | |  b/b2 | 1 +
 | |  c/c2 | 1 +
-| * 
+| *
 |/
 |    a/a1 | 1 +
 |    b/b1 | 1 +
 |    c/c1 | 1 +
-* 
+*
 |  a/2 | 1 +
-* 
+*
    a/1 | 1 +
 ```
 
